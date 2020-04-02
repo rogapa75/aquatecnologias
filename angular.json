@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "aquaTecnologias"
+    }
+  },
+  "defaultProject": "aquaTecnologias",
+  "cli": {
+    "analytics": false
+  }
 }
