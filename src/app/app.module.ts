@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.modules';
 import { NgModule } from '@angular/core';
 
+//Rutas
+import { AppRoutingModule } from './app-routing.modules';
+//Componentes
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -10,6 +12,7 @@ import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { MarcasComponent } from './pages/marcas/marcas.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { AboutComponent } from './pages/about/about.component';
 
 
 @NgModule({
@@ -21,7 +24,8 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     ServiciosComponent,
     ProductosComponent,
     MarcasComponent,
-    ContactoComponent
+    ContactoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
