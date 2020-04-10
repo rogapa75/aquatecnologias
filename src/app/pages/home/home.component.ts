@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { infoCarrusel } from '../../interfaces/info-carrusel.interface';
+import listaDeCarrusel from 'src/assets/data/data-carrusel.json';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +11,7 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  carrusel: any = listaDeCarrusel;
   ngOnInit(): void {
   }
 

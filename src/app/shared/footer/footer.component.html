@@ -9,13 +9,18 @@
         <div class="container">
             <div class="col-md-6 col-md-offset-3">
                 <ul class="social-network">
-                    <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a [href]="_infoPaginaServ.info.facebook" target="_blank" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a [href]="_infoPaginaServ.info.facebook2" target="_blank" class="fb tool-tip" title="Facebook 2"><i class="fa fa-facebook"></i></a></li>
+                    <li><a [href]="_infoPaginaServ.info.instagram" target="_blank" class="fb tool-tip" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="mailTo:{{ _infoPaginaServ.info.email }}" class="fb tool-tip" title="Email"><i class="fa fa-envelope"></i></a></li>
+                    <!-- <li><a href="mailTo:{{ _infoPaginaServ.info.email }}" class="rk-dark-color "> {{ _infoPaginaServ.info.email }}</a></li> -->
+
+
+                    <!-- <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
                     <li><a href="#" class="dribbble tool-tip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#" class="pinterest tool-tip" title="Pinterest"><i class="fa fa-pinterest-square"></i></a></li>
+                    <li><a href="#" class="pinterest tool-tip" title="Pinterest"><i class="fa fa-pinterest-square"></i></a></li> -->
                 </ul>
             </div>
         </div>
@@ -27,7 +32,7 @@
 
 
         <div class="copyright">
-            &copy; AquaTecnologias {{ yearAct }} Derechos Reservados.
+            &copy; {{_infoPaginaServ.info.nombreCorto}} {{ yearAct }} Derechos Reservados.
             <div class="credits">
                 <!--
             All the links in the footer should remain intact.
@@ -35,7 +40,7 @@
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bikin
           -->
-                Designed by <a href="https://bootstrapmade.com/">DesignSoft</a>
+                Designed by <a href="https://bootstrapmade.com/">{{ _infoPaginaServ.info.Designed}}</a>
             </div>
         </div>
     </div>
