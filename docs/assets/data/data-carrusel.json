@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [{
         "ruta": "about",
         "imagenUrl": "/assets/img/logoCarrusel.jpg",
@@ -22,4 +23,30 @@
         "colorTitulo": "yellow",
         "colorDescripcion": "yellow"
     }
+=======
+[{
+        "ruta": "about",
+        "imagenUrl": "/assets/img/logoCarrusel.jpg",
+        "titulo": "AquaTecnologias",
+        "descripcion": "Tratamiento de Agua Comercial e Industrial",
+        "colorTitulo": "yellow",
+        "colorDescripcion": "yellow"
+    },
+    {
+        "ruta": "marcas",
+        "imagenUrl": "/assets/img/883.jpg",
+        "titulo": "Marcas",
+        "descripcion": "Manejamos las mejores marcas del mercado",
+        "colorTitulo": "yellow",
+        "colorDescripcion": "yellow"
+    },
+    {
+        "ruta": "productos",
+        "imagenUrl": "/assets/img/agua2.jpg ",
+        "titulo": "Productos",
+        "descripcion": "Venta de insumos para purificadoras de agua",
+        "colorTitulo": "yellow",
+        "colorDescripcion": "yellow"
+    }
+>>>>>>> 2a0c7e4... 1a Revision WEB
 ]

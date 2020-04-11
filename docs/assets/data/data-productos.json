@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [{
         "idImagen": 1,
         "imagenUrl": "/assets/img/productos/prod1.jpg",
@@ -7,4 +8,15 @@
     {
 
     }
+=======
+[{
+        "idImagen": 1,
+        "imagenUrl": "/assets/img/productos/prod1.jpg",
+        "ruta": "detalle"
+
+    },
+    {
+
+    }
+>>>>>>> 2a0c7e4... 1a Revision WEB
 ]
