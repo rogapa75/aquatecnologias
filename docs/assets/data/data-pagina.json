@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "titulo": "Aqua Tecnologías",
     "nombreCorto": "AquaTecnologías",
@@ -14,21 +13,4 @@
     "horario1": "Lunes a Viernes de 8:30 a.m. - 4:30 p.m.",
     "horario2": "Sábado de 9:00 a.m. - 1:00 p.m."
 
-=======
-{
-    "titulo": "Aqua Tecnologías",
-    "nombreCorto": "AquaTecnologías",
-    "slogan": "Tratamiento de Agua comercial e Industrial",
-    "email": "m.aguirre@aquatecnologias.com",
-    "Designed": "<Design>{Soft}",
-    "facebook": "https://www.facebook.com/aquatecnologias.merida",
-    "facebook2": "https://www.facebook.com/miguel.aguirrediaz.94",
-    "instagram": "https://www.instagram.com/aquatecnologias4/?hl=es-la",
-    "telefono": "(999) 432.78.52",
-    "direccion": "Calle 31 A No. 424 Esquina con 32 Col. Adolfo López Mateos C.P.97140",
-    "celular": "99.94.73.87.81",
-    "horario1": "Lunes a Viernes de 8:30 a.m. - 4:30 p.m.",
-    "horario2": "Sábado de 9:00 a.m. - 1:00 p.m."
-
->>>>>>> 2a0c7e4... 1a Revision WEB
 }
